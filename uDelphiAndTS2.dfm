@@ -1,19 +1,18 @@
-object Form1: TForm1
-  Left = 643
-  Top = 291
+object Form2: TForm2
+  Left = 404
+  Top = 284
   BorderStyle = bsDialog
-  Caption = 'Second form'
+  Caption = 'First Form'
   ClientHeight = 141
-  ClientWidth = 232
-  Color = clGradientInactiveCaption
+  ClientWidth = 237
+  Color = clBackground
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
-  OnClose = FormClose
-  OnDestroy = FormDestroy
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -23,9 +22,9 @@ object Form1: TForm1
     Height = 65
     Alignment = taCenter
     AutoSize = False
-    Caption = 'UTILIZANDO SHELLEXECUTE'
+    Caption = 'UTILIZANDO PROCESS'
     Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -19
     Font.Name = 'Arial Black'
     Font.Style = [fsBold]
@@ -46,5 +45,15 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     OnClick = Button1Click
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '*.ts'
+    Filter = 'Arquivo TypeScript|*.ts'
+    Left = 200
+    Top = 8
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 200
+    Top = 56
   end
 end

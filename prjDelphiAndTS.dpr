@@ -2,8 +2,8 @@ program prjDelphiAndTS;
 
 uses
   Forms,
-  udmDelphiAndTS2 in 'udmDelphiAndTS2.pas' {Form2},
-  udmDelphiAndTS in 'udmDelphiAndTS.pas' {Form1};
+  uDelphiAndTS2 in 'uDelphiAndTS2.pas' {Form2},
+  uDelphiAndTS in 'uDelphiAndTS.pas' {Form1};
 
 {$R *.res}
 

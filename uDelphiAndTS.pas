@@ -1,4 +1,4 @@
-unit udmDelphiAndTS;
+unit uDelphiAndTS;
 
 interface
 

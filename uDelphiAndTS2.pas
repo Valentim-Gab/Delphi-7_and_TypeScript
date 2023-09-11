@@ -1,4 +1,4 @@
-unit udmDelphiAndTS2;
+unit uDelphiAndTS2;
 
 interface
 
@@ -26,7 +26,7 @@ var
 
 implementation
 
-uses StrUtils, udmDelphiAndTS;
+uses StrUtils, uDelphiAndTS;
 
 {$R *.dfm}
 
